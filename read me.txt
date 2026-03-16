@@ -1,0 +1,2 @@
+shift=jump
+shift zıplama
