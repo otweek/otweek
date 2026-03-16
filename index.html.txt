@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Benim Arşivim</title>
+    <style>
+        body { font-family: sans-serif; background-color: #0d1117; color: #c9d1d9; text-align: center; padding: 20px; }
+        .izgara { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; max-width: 1000px; margin: auto; }
+        .kare { background: #161b22; border: 1px solid #30363d; border-radius: 12px; padding: 20px; transition: 0.3s; }
+        .kare:hover { border-color: #58a6ff; }
+        .kare img { width: 100%; height: 160px; object-fit: cover; border-radius: 8px; }
+        .etiket { font-size: 0.7rem; font-weight: bold; padding: 3px 8px; border-radius: 4px; display: inline-block; margin-bottom: 10px; }
+        .oyun { background: #238636; color: white; }
+        .kitap { background: #a371f7; color: white; }
+        .btn { display: block; margin-top: 15px; padding: 10px; background: #21262d; color: #58a6ff; text-decoration: none; border: 1px solid #30363d; border-radius: 6px; font-weight: bold; }
+        .btn:hover { background: #30363d; }
+    </style>
+</head>
+<body>
+
+<h1>Arşivim</h1>
+
+<div class="izgara">
+    
+    <div class="kare">
+        <span class="etiket oyun">OYUN</span>
+        <img src="obez.jpg" alt="Oyun">
+        <h3>Toxic Block</h3>
+        <p>Pygame projesi.</p>
+        <a href="https://github.com/KULLANICI_ADIN/REPO_ADIN/raw/main/oyun.zip" class="btn">HEMEN İNDİR</a>
+    </div>
+
+    <div class="kare">
+        <span class="etiket kitap">FAN KİTABI</span>
+        <img src="https://via.placeholder.com/250x160/a371f7/ffffff?text=KİTAP" alt="Kitap">
+        <h3>Hikayem</h3>
+        <p>Metin belgesi.</p>
+        <a href="https://github.com/KULLANICI_ADIN/REPO_ADIN/raw/main/hikaye.txt" class="btn">HEMEN İNDİR</a>
+    </div>
+
+</div>
+
+</body>
+</html>
