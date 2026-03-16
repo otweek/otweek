@@ -1,4 +1,4 @@
-## Hi there 👋
+##Merhaba ben otweek ve hayallerimin peşindeyim
 
 <!--
 **otweek/otweek** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
